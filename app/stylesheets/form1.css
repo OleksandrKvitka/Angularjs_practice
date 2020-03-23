@@ -1,0 +1,47 @@
+.box {
+    width: 1176px;
+    height: 80px;
+    background-color:#FAFAFA;
+    color: #0A0A0A;
+    border-radius: 4px;
+    opacity: 1;
+    margin-block-start: auto;
+}
+
+.box:focus {
+    background: #006BE4;
+    color: #FFFFFF;
+}
+
+button.open {
+    margin-left: 29px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    border:none;
+    margin-top: 28px;
+    mix-blend-mode: difference;
+}
+
+button.open:focus {
+    transform: rotate(90deg);
+}
+
+.number {
+    font-size: 18px; 
+    font-weight: bold;
+
+    margin-top: 16px;
+    margin-left: 80px;
+    
+}
+
+.payer {
+    margin-bottom: 16px;
+    margin-left: 80px;
+
+    font-size: 14px;
+}
+
+
+
