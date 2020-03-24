@@ -188,4 +188,16 @@ button.open:focus {
     overflow: hidden;
     float: right;
 }
+ .label_name {
+    margin-top: 6px;
+    margin-left: 16px;
+    float:left;
+    overflow: hidden;
+    text-align: left;
+    font-size:24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+ }
 
