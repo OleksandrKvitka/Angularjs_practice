@@ -20,20 +20,20 @@ body {
     border-radius: 4px;
     opacity: 1;
     margin-block-start: auto;
+    overflow: hidden;
 }
 
 .box:focus {
     background: #006BE4;
     color: #FFFFFF;
+    outline: none;
 }
-
 .button {
-    display: flex;
-    flex-wrap: wrap;
     margin-left: 29px;
     margin-top: 28px;
+    overflow: hidden;
+    float: left;
 }
-
 button.open {
     border-radius: 50%;
     width: 24px;
@@ -44,7 +44,6 @@ button.open {
 }
 
 button.open:focus {
-    transform: rotate(90deg);
     outline: none;
 }
 
@@ -58,28 +57,57 @@ button.open:focus {
 }
 
 .number {
-    display: flex;
-    flex-wrap: wrap;
-    width: 300px;
-    gap: 20px 5px;
-
-    top: 116px;
-    left: 80px;
+    margin-top: 16px;
+    margin-left: 80px;
     width: 64px;
     height: 23px;
-
     text-align: left;
-    font: Demi 18px/27px Futura PT;
+
+    font-size: 18px;
+    font-weight: 600;
+
     letter-spacing: 0;
-    color: #0A0A0A;
     opacity: 1;
+    overflow: hidden;
+    float: left;
 }
 
 .payer {
-    margin-bottom: 16px;
-    margin-left: 80px;
+    margin-top: 7px;
+    margin-left: 27px;
+    text-align: left;
 
     font-size: 14px;
+
+    letter-spacing: 0;
+    opacity: 0.8;
+    overflow: hidden;
+    float: left;
+    float: top;
+}
+
+.account {
+    margin-top: 16px;
+    margin-left: 114px;
+    text-align: left;
+
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    opacity: 1;
+    float: left;
+    overflow: hidden;
+}
+
+.sum {
+    margin-top: 16px;
+    margin-right: 37px;
+    text-align: right;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0;
+    opacity: 1;
+    overflow: hidden;
 }
 
 

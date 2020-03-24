@@ -4,9 +4,21 @@
     </div>
     <div class="box" tabindex="0">
         <div class="button">
-            <button class="open" ng-click="showCard()"><img src="stylesheets/svg/chevron-right.svg"></button> 
+            <button class="open" ng-click="showCard()">
+                <img ng-show="hide" src="stylesheets/svg/chevron-right.svg">
+                <img ng-show="show" src="stylesheets/svg/chevron-down.svg">
+            </button> 
         </div>
-        <!-- <div class="number">№{{$ctrl.payment.number}}</div> -->
+        <div>
+            <div class="number">№{{$ctrl.payment.number}}</div>
+            <div class="account">
+                Мій рахунок
+                <img src="stylesheets/svg/long-arrow-alt-right.svg">
+                {{$ctrl.payment.account_section}}
+            </div>
+            <div class="sum">{{$ctrl.payment.sum}}</div>
+        </div>
+        
     </div>
     <div class="hidden_box" ng-show="show">
         

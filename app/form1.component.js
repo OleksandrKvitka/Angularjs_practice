@@ -4,8 +4,10 @@ angular.
     templateUrl: 'form1.template.html',
     controller: function PaymentCardController($scope) {
       $scope.show = false;
+      $scope.hide = true;
       $scope.showCard = function() {
         $scope.show = !$scope.show;
+        $scope.hide = !$scope.hide;
       }
       this.payment = {
         number: '3256',
