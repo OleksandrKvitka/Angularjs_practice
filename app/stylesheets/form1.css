@@ -3,11 +3,12 @@
 body {
     background: #EEEEEE 0% 0% no-repeat padding-box;
     opacity: 1;
+    font-family: futura-pt;
 }
 
 .header {
     text-align: left;
-    font: Regular 12px/14px Gotham Pro;
+    font: 12px;
     letter-spacing: 0;
     color: #AAAAAA;
     text-transform: uppercase;
@@ -23,7 +24,6 @@ body {
     opacity: 1;
     margin-block-start: auto;
     overflow: hidden;
-    font-family: futura-pt;
 }
 
 .box_focus {
@@ -57,17 +57,11 @@ button.open:focus {
     outline: none;
 }
 
-.hidden_box {
-    margin-top: 1px;
-    width: 1176px;
-    height: 511px;
-    background: #FAFAFA 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 1;
+.high {
+    margin-top: 16px;
 }
 
 .number {
-    margin-top: 16px;
     margin-left: 80px;
     width: 64px;
     height: 23px;
@@ -81,23 +75,8 @@ button.open:focus {
     float: left;
 }
 
-.payer {
-    margin-top: 7px;
-    margin-left: 27px;
-    text-align: left;
-
-    font-size: 14px;
-
-    letter-spacing: 0;
-    opacity: 0.8;
-    overflow: hidden;
-    float: left;
-    float: top;
-}
-
 .account {
-    margin-top: 16px;
-    margin-left: 114px;
+    margin-left: 144px;
     text-align: left;
     font-size: 18px;
     font-weight: 600;
@@ -108,15 +87,105 @@ button.open:focus {
 }
 
 .sum {
-    margin-top: 16px;
-    margin-right: 37px;
-    text-align: right;
+    margin-left: 228px;
+    text-align: left;
     font-size: 28px;
     font-weight: 600;
     letter-spacing: 0;
     opacity: 1;
     overflow: hidden;
+    float: left
 }
 
+.low {
+    margin-bottom: 16px;
+}
 
+.payer {
+    margin-left: 80px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+    opacity: 0.8;
+    overflow: hidden;
+    float: left;
+}
+
+.pay_assig {
+    margin-left: 70px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+    opacity: 0.8;
+    overflow: hidden;
+    float: left;
+}
+
+.circles {
+    margin-top: 27;
+    margin-right: 17;
+    display: table-row-group;
+    float: right;
+}
+
+.circle {
+    width: 6px; 
+    height: 6px;
+    margin: 4px auto;
+    background: #0A0A0A 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+
+.hidden_box {
+    margin-top: 1px;
+    width: 1176px;
+    height: 511px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.header2 {
+    margin-left: 24;
+    margin-top: 23;
+    text-align: left;
+    font-size:24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    opacity: 1;
+    float: left;
+}
+
+.sys_num {
+    margin-right: 24;
+    margin-top: 23;
+    text-align: right;
+    font-size:16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.label {
+    width: 560px;
+    height: 48px;
+    background: #006BE4 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    margin-top: 17;
+}
+
+.label1 {
+    margin-left: 24px;
+    float:left;
+    overflow: hidden;
+}
+
+.label2 {
+    margin-right: 24px;
+    overflow: hidden;
+    float: right;
+}
 

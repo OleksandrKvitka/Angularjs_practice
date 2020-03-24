@@ -9,7 +9,12 @@
                 <img ng-show="show" src="stylesheets/svg/chevron-down.svg">
             </button>
         </div>
-        <div>
+        <div class="circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="high">
             <div class="number">№{{$ctrl.payment.number}}</div>
             <div class="account">
                 Мій рахунок
@@ -18,10 +23,26 @@
             </div>
             <div class="sum">{{$ctrl.payment.sum}}</div>
         </div>
-        
+        <div class="low">
+            <div class="payer">№{{$ctrl.payment.payer}}</div>
+            <div class="pay_assig">№{{$ctrl.payment.pay_assignment}}</div>
+        </div>
     </div>
     <div class="hidden_box" ng-show="show">
-        
+        <div class="header2">
+            Платіжне доручення <font color=#006BE4>№{{$ctrl.payment.number}}</font>
+        </div>
+        <div class="sys_num">системний номер <font size="5">{{$ctrl.payment.number}}</font></div>
+        <div class="label1">
+            <div class="label">
+
+            </div>
+        </div>
+        <div class="label2">
+            <div class="label">
+                
+            </div>
+        </div>
     </div>
 </div>
 
