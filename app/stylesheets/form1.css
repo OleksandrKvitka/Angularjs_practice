@@ -190,7 +190,8 @@ button.open:focus {
     background: #2B85EA 0% 0% no-repeat padding-box;
     border-radius: 4px;
 }
- .label_name {
+
+.label_name {
     margin-top: 6px;
     margin-left: 16px;
     float:left;
@@ -201,5 +202,44 @@ button.open:focus {
     letter-spacing: 0;
     color: #FFFFFF;
     opacity: 1;
- }
+}
+
+.table1 {
+    width: 560px;
+    margin-left: 24px;
+    margin-top: 32px;
+    float:left;
+    overflow: hidden;
+    border-spacing: 0px 24px;
+}
+
+.table2 {
+    width: 560px;
+    margin-right: 24px;
+    margin-top: 32px;
+    float:right;
+    overflow: hidden;
+    border-spacing: 0px 24px;
+}
+
+.table_td {
+    width: 188;
+}
+
+.high_str {
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #0A0A0A;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.low_str {
+    text-align: left;
+    font-size: 16px;
+    color: #0A0A0A;
+    opacity: 1;
+    font-weight: 500;
+}
 

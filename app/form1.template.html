@@ -44,6 +44,66 @@
                 <div class="label_name">отримувач</div>
             </div>
         </div>
+        <div>
+            <table class="table1">
+                <tr>
+                    <td class="table_td>">
+                        <div class="high_str">платник</div>
+                        <div class="low_str">Мій рахунок</div>
+                    </td>
+                    <td class="table_td>">
+                        <div class="high_str">код</div>
+                        <div class="low_str">{{$ctrl.payment.payer_code}}</div>
+                    </td>
+                    <td class="table_td>">
+                        <div class="high_str">код банку</div>
+                        <div class="low_str">{{$ctrl.payment.payer_bank_code}}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table_td>">
+                        <div class="high_str">банк платника</div>
+                        <div class="low_str">{{$ctrl.payment.payer_bank}}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table_td>">
+                        <div class="high_str">дебет рах. №</div>
+                        <div class="low_str">{{$ctrl.payment.debit_credit}}</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table class="table2">
+                <tr>
+                    <td class="table_td>">
+                        <div class="high_str">отримувач</div>
+                        <div class="low_str">{{$ctrl.payment.recipient}}</div>
+                    </td>
+                    <td class="table_td>">
+                        <div class="high_str">код</div>
+                        <div class="low_str">{{$ctrl.payment.recipient_code}}</div>
+                    </td>
+                    <td class="table_td>">
+                        <div class="high_str">код банку</div>
+                        <div class="low_str">{{$ctrl.payment.recipient_bank_code}}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table_td>">
+                        <div class="high_str">банк отримувача</div>
+                        <div class="low_str">{{$ctrl.payment.recipient_bank}}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table_td>">
+                        <div class="high_str">кредит рах. №</div>
+                        <div class="low_str">{{$ctrl.payment.debit_credit}}</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 </div>
 

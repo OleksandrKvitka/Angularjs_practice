@@ -23,7 +23,7 @@ angular.
         pay_assignment: 'У т.ч. ПДВ 20% - 16.67 грн',
         sum: '100 000,00 ₴',
         payer_code: '1234567890',
-        payer_bank_code: '1234567890',
+        payer_bank_code: '302076',
         payer_bank: 'Банк Галактичної Імперії',
         recipient: 'Галактична Імперія',
         recipient_code: '1234567890',
