@@ -2,7 +2,11 @@ angular.
   module('app').
   component('form1', {  
     templateUrl: 'form1.template.html',
-    controller: function PaymentCardController() {
+    controller: function PaymentCardController($scope) {
+      $scope.show = false;
+      $scope.showCard = function() {
+        $scope.show = !$scope.show;
+      }
       this.payment = {
         number: '3256',
         payer: 'ФОП Люк Скайуокер',

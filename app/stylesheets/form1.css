@@ -1,3 +1,8 @@
+body {
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
 .box {
     width: 1176px;
     height: 80px;
@@ -20,11 +25,14 @@ button.open {
     height: 24px;
     border:none;
     margin-top: 28px;
-    mix-blend-mode: difference;
+    background: #0A0A0A 0% 0% no-repeat padding-box;
+    opacity: 0.1;
+
 }
 
 button.open:focus {
     transform: rotate(90deg);
+    outline: none;
 }
 
 .number {
