@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/ajs7grg.css");
+
 body {
     background: #EEEEEE 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -21,9 +23,10 @@ body {
     opacity: 1;
     margin-block-start: auto;
     overflow: hidden;
+    font-family: futura-pt;
 }
 
-.box:focus {
+.box_focus {
     background: #006BE4;
     color: #FFFFFF;
     outline: none;
@@ -37,8 +40,8 @@ body {
     width: 24px;
     height: 24px;
     border:none;
-    background: #0A0A0A 0% 0% no-repeat padding-box;
-    opacity: 0.1;
+    background: rgba(10, 10, 10, 0.1) 0% 0% no-repeat padding-box;
+    
 }
 
 button.open {
@@ -72,7 +75,6 @@ button.open:focus {
 
     font-size: 18px;
     font-weight: 600;
-    font-family: Futura;
     letter-spacing: 0;
     opacity: 1;
     overflow: hidden;
@@ -97,7 +99,6 @@ button.open:focus {
     margin-top: 16px;
     margin-left: 114px;
     text-align: left;
-    font-family: Futura;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 0;

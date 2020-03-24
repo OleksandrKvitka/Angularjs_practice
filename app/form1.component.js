@@ -9,6 +9,7 @@ angular.
         $scope.show = !$scope.show;
         $scope.hide = !$scope.hide;
       }
+      $scope.focus = false;
       this.payment = {
         number: '3256',
         payer: 'ФОП Люк Скайуокер',

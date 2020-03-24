@@ -2,7 +2,7 @@
     <div class="header">
         <p>payment card</p>
     </div>
-    <div class="box" tabindex="0">
+    <div class="box" ng-click="box_focus = !box_focus" ng-class="{'box_focus': box_focus}">
         <div class="button">
             <button class="open" ng-click="showCard()">
                 <img ng-show="hide" src="stylesheets/svg/chevron-right.svg">
