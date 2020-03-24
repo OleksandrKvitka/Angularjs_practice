@@ -1,9 +1,15 @@
 <div>
-    <div class="box" tabindex="0">
-        <button class="open" ng-click="showCard()"><img src="svg/chevron.svg"></button> 
+    <div class="header">
+        <p>payment card</p>
     </div>
-    <div ng-show="show">
-        <p>hello</p>
+    <div class="box" tabindex="0">
+        <div class="button">
+            <button class="open" ng-click="showCard()"><img src="stylesheets/svg/chevron-right.svg"></button> 
+        </div>
+        <!-- <div class="number">№{{$ctrl.payment.number}}</div> -->
+    </div>
+    <div class="hidden_box" ng-show="show">
+        
     </div>
 </div>
 
