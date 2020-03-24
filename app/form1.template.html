@@ -2,7 +2,7 @@
     <div class="header">
         <p>payment card</p>
     </div>
-    <div class="box" ng-click="box_focus = !box_focus" ng-class="{'box_focus': box_focus}">
+    <div class="box" ng-click="box_focus = !box_focus; changeArr()" ng-class="{'box_focus': box_focus}">
         <div class="button">
             <button class="open" ng-click="showCard()">
                 <img ng-show="hide" src="stylesheets/svg/chevron-right.svg">
@@ -18,7 +18,8 @@
             <div class="number">№{{$ctrl.payment.number}}</div>
             <div class="account">
                 Мій рахунок
-                <img src="stylesheets/svg/long-arrow-alt-right.svg">
+                <img ng-show="changeB" src="stylesheets/svg/long-arrow-alt-right.svg">
+                <img ng-show="changeW" src="stylesheets/svg/long-arrow-alt-right-white.svg">
                 {{$ctrl.payment.account_section}}
             </div>
             <div class="sum">{{$ctrl.payment.sum}}</div>

@@ -9,6 +9,12 @@ angular.
         $scope.show = !$scope.show;
         $scope.hide = !$scope.hide;
       }
+      $scope.changeW = false;
+      $scope.changeB = true;
+      $scope.changeArr = function() {
+        $scope.changeB = !$scope.changeB;
+        $scope.changeW = !$scope.changeW;
+      }
       $scope.focus = false;
       this.payment = {
         number: '3256',
