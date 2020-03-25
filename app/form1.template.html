@@ -4,9 +4,8 @@
     </div>
     <div class="box" ng-click="box_focus = !box_focus; changeArr()" ng-class="{'box_focus': box_focus}">
         <div class="button">
-            <button class="open" ng-click="showCard(); box_focus = !box_focus; changeArr()" ng-class="{'box_focus': box_focus}">
-                <img ng-show="hide" src="stylesheets/svg/chevron-right.svg">
-                <img ng-show="show" src="stylesheets/svg/chevron-down.svg">
+            <button class="open" ng-click="showCard(); box_focus = !box_focus; changeArr(); rotate = !rotate" ng-class="{'box_focus': box_focus, 'rotate': rotate}">
+                <img src="stylesheets/svg/chevron-right.svg">
             </button>
         </div>
         <div class="circles">

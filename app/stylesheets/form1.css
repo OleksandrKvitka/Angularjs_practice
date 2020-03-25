@@ -57,6 +57,10 @@ button.open:focus {
     outline: none;
 }
 
+.rotate {
+    transform: rotate(90deg);
+}
+
 .high {
     margin-top: 16px;
 }
