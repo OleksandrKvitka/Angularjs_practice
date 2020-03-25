@@ -16,14 +16,16 @@ body {
 }
 
 .box {
-    width: 1176px;
-    height: 80px;
+    width: 1135px;
+    height: 48px;
     background-color:#FAFAFA;
     color: #0A0A0A;
     border-radius: 4px;
     opacity: 1;
-    margin-block-start: auto;
     overflow: hidden;
+    padding: 16px 21px 16px 20px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .box_focus {
@@ -31,11 +33,15 @@ body {
     color: #FFFFFF;
     outline: none;
 }
+
+.button_flex {
+    display: flex;
+    padding: 12px 36px 12px 0px;
+    width: 24px;
+}
+
 .button {
-    margin-left: 29px;
-    margin-top: 28px;
     overflow: hidden;
-    float: left;
     border-radius: 50%;
     width: 24px;
     height: 24px;
@@ -61,81 +67,76 @@ button.open:focus {
     transform: rotate(90deg);
 }
 
-.high {
-    margin-top: 16px;
+.first_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 208px;
 }
 
 .number {
-    margin-left: 80px;
     width: 64px;
     height: 23px;
     text-align: left;
-
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 0;
     opacity: 1;
-    overflow: hidden;
-    float: left;
+}
+
+.payer {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+    opacity: 0.8;
+}
+
+.second_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 663px;
 }
 
 .account {
-    margin-left: 144px;
     text-align: left;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 0;
     opacity: 1;
-    float: left;
-    overflow: hidden;
+}
+
+.pay_assig {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+    opacity: 0.8;
+}
+
+.third_flex {
+    display: flex;
+    width: 198px;
 }
 
 .sum {
-    margin-left: 228px;
     text-align: left;
     font-size: 28px;
     font-weight: 600;
     letter-spacing: 0;
     opacity: 1;
-    overflow: hidden;
-    float: left
 }
 
-.low {
-    margin-bottom: 16px;
-}
-
-.payer {
-    margin-left: 80px;
-    text-align: left;
-    font-size: 14px;
-    letter-spacing: 0;
-    opacity: 0.8;
-    overflow: hidden;
-    float: left;
-}
-
-.pay_assig {
-    margin-left: 70px;
-    text-align: left;
-    font-size: 14px;
-    letter-spacing: 0;
-    opacity: 0.8;
-    overflow: hidden;
-    float: left;
-}
-
-.circles {
-    margin-top: 27;
-    margin-right: 17;
-    display: table-row-group;
-    float: right;
+.circles_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 6px;
+    padding: 11px 0px 11px 0px;
 }
 
 .circle {
     width: 6px; 
     height: 6px;
-    margin: 4px auto;
     background: #0A0A0A 0% 0% no-repeat padding-box;
     border-radius: 50%;
     opacity: 0.1;

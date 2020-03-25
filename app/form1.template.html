@@ -3,29 +3,33 @@
         <p>payment card</p>
     </div>
     <div class="box" ng-click="box_focus = !box_focus; changeArr()" ng-class="{'box_focus': box_focus}">
-        <div class="button">
-            <button class="open" ng-click="showCard(); box_focus = !box_focus; changeArr(); rotate = !rotate" ng-class="{'box_focus': box_focus, 'rotate': rotate}">
-                <img src="stylesheets/svg/chevron-right.svg">
-            </button>
+        <div class="button_flex">
+            <div class="button">
+                <button class="open" ng-click="showCard(); box_focus = !box_focus; changeArr(); rotate = !rotate" ng-class="{'box_focus': box_focus, 'rotate': rotate}">
+                    <img src="stylesheets/svg/chevron-right.svg">
+                </button>
+            </div>
         </div>
-        <div class="circles">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-        </div>
-        <div class="high">
+        <div class="first_flex">
             <div class="number">№{{$ctrl.payment.number}}</div>
+            <div class="payer">№{{$ctrl.payment.payer}}</div>
+        </div>
+        <div class="second_flex">
             <div class="account">
                 Мій рахунок
                 <img ng-show="changeB" src="stylesheets/svg/long-arrow-alt-right.svg">
                 <img ng-show="changeW" src="stylesheets/svg/long-arrow-alt-right-white.svg">
                 {{$ctrl.payment.account_section}}
             </div>
+            <div class="pay_assig">№{{$ctrl.payment.pay_assignment}}</div>
+        </div>
+        <div class="third_flex">
             <div class="sum">{{$ctrl.payment.sum}}</div>
         </div>
-        <div class="low">
-            <div class="payer">№{{$ctrl.payment.payer}}</div>
-            <div class="pay_assig">№{{$ctrl.payment.pay_assignment}}</div>
+        <div class="circles_flex">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
         </div>
     </div>
     <div class="hidden_box" ng-show="show">
