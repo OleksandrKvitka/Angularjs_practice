@@ -172,19 +172,16 @@ button.open:focus {
     opacity: 1;
 }
 
-.label {
-    width: 560px;
-    height: 48px;
-    opacity: 1;
-    margin-top: 17;
-}
-
 .label1 {
     margin-left: 24px;
     float:left;
     overflow: hidden;
     background: #006BE4 0% 0% no-repeat padding-box;
     border-radius: 2px;
+    width: 560px;
+    height: 48px;
+    opacity: 1;
+    margin-top: 17;
 }
 
 .label2 {
@@ -193,6 +190,10 @@ button.open:focus {
     float: right;
     background: #2B85EA 0% 0% no-repeat padding-box;
     border-radius: 4px;
+    width: 560px;
+    height: 48px;
+    opacity: 1;
+    margin-top: 17;
 }
 
 .label_name {
