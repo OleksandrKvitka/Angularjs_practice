@@ -29,16 +29,17 @@
         </div>
     </div>
     <div class="hidden_box" ng-show="show">
-        <div class="header2">
-            Платіжне доручення <font color=#006BE4>№{{$ctrl.payment.number}}</font>
+        <div class="first_row">
+            <div class="header2">
+                Платіжне доручення <font color=#006BE4>№{{$ctrl.payment.number}}</font>
+            </div>
+            <div class="sys_num">системний номер <font size="5">{{$ctrl.payment.number}}</font></div>
         </div>
-        <div class="sys_num">системний номер <font size="5">{{$ctrl.payment.number}}</font></div>
-        <div class="label1">
-            <div class="label_name">платник</div>
+        <div class="second_row">
+            <div class="label1">платник</div>
+            <div class="label2">отримувач</div>
         </div>
-        <div class="label2">
-            <div class="label_name">отримувач</div>
-        </div>
+        <!--
         <div>
             <table class="table1">
                 <tr>
@@ -119,7 +120,7 @@
                     </td>
                 </tr>
             </table>
-        </div>
+        </div>-->
     </div>
 </div>
 
