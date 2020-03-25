@@ -4,7 +4,7 @@
     </div>
     <div class="box" ng-click="box_focus = !box_focus; changeArr()" ng-class="{'box_focus': box_focus}">
         <div class="button">
-            <button class="open" ng-click="showCard()">
+            <button class="open" ng-click="showCard(); box_focus = !box_focus; changeArr()" ng-class="{'box_focus': box_focus}">
                 <img ng-show="hide" src="stylesheets/svg/chevron-right.svg">
                 <img ng-show="show" src="stylesheets/svg/chevron-down.svg">
             </button>
@@ -100,6 +100,27 @@
                     <td class="table_td>">
                         <div class="high_str">кредит рах. №</div>
                         <div class="low_str">{{$ctrl.payment.debit_credit}}</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div>
+            <table class="table3">
+                <tr>
+                    <td class="table_td>">
+                        <div class="high_str">сума словами</div>
+                        <div class="sum_text">{{$ctrl.payment.sum_text}}</div>
+                    </td>
+                    <td class="table_right_td">
+                        <div class="high_right_str">сума</div>
+                        <div class="sum_text">{{$ctrl.payment.sum}}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="table_td>">
+                        <div class="high_str">призначення платежу</div>
+                        <div class="low_str">{{$ctrl.payment.pay_assignment}}</div>
                     </td>
                 </tr>
             </table>

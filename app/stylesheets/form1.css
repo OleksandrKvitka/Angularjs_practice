@@ -210,7 +210,7 @@ button.open:focus {
     margin-top: 32px;
     float:left;
     overflow: hidden;
-    border-spacing: 0px 24px;
+    border-spacing: 24px;
 }
 
 .table2 {
@@ -219,7 +219,7 @@ button.open:focus {
     margin-top: 32px;
     float:right;
     overflow: hidden;
-    border-spacing: 0px 24px;
+    border-spacing: 24px;
 }
 
 .table_td {
@@ -241,5 +241,45 @@ button.open:focus {
     color: #0A0A0A;
     opacity: 1;
     font-weight: 500;
+}
+
+hr {
+    border: 1px solid #DDDDDD;
+    opacity: 1;
+    margin-top: 33px;
+    width: 1128px;
+    height: 0px;
+}
+
+.table3 {
+    margin-left: 24px;
+    margin-top: 8px;
+    float:left;
+    overflow: hidden;
+    border-spacing: 0px 24px;
+    width: 1128px;
+}
+
+.sum_text {
+    text-align: left;
+    font-size: 24px;
+    color: #0A0A0A;
+    opacity: 1;
+    font-weight: 700;
+}
+
+.table_right_td {
+    text-align: right;
+    float: right;
+    overflow: hidden;
+}
+
+.high_right_str {
+    text-align: right;
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #0A0A0A;
+    text-transform: uppercase;
+    opacity: 0.6;
 }
 
