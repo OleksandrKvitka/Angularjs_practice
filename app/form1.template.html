@@ -15,8 +15,8 @@
         <div class="second_flex">
             <div class="account">
                 Мій рахунок
-                <img ng-show="changeB" src="stylesheets/svg/long-arrow-alt-right.svg">
-                <img ng-show="changeW" src="stylesheets/svg/long-arrow-alt-right-white.svg">
+                <img ng-show="!change" src="stylesheets/svg/long-arrow-alt-right.svg">
+                <img ng-show="change" src="stylesheets/svg/long-arrow-alt-right-white.svg">
                 {{$ctrl.payment.account_section}}
             </div>
             <div class="pay_assig">№{{$ctrl.payment.pay_assignment}}</div>

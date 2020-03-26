@@ -4,16 +4,12 @@ angular.
     templateUrl: 'form1.template.html',
     controller: function PaymentCardController($scope) {
       $scope.show = false;
-      $scope.hide = true;
       $scope.showCard = function() {
         $scope.show = !$scope.show;
-        $scope.hide = !$scope.hide;
       }
-      $scope.changeW = false;
-      $scope.changeB = true;
+      $scope.change = false;
       $scope.changeArr = function() {
-        $scope.changeB = !$scope.changeB;
-        $scope.changeW = !$scope.changeW;
+        $scope.change = !$scope.change;
       }
       $scope.focus = false;
       this.payment = {
