@@ -8,20 +8,23 @@ body {
 
 .header {
     text-align: left;
-    font: 12px;
+    font: 75%;
     letter-spacing: 0;
     color: #AAAAAA;
     text-transform: uppercase;
     opacity: 1;
-    padding: 16px 0px;
+    padding: 1.41% 0px;
 }
 
 .border {
-    width: 1176px;
+    width: 100%;
+    max-width: 1176px;
+    max-height: 635px;
+    height: 100%;
 }
 
 .box {
-    height: 48px;
+    height: 7.9%;
     background-color:#FAFAFA;
     color: #0A0A0A;
     border-radius: 4px;
@@ -80,7 +83,7 @@ button.open:focus {
 
 .number {
     text-align: left;
-    font-size: 18px;
+    font-size: 112.5%;
     font-weight: 600;
     letter-spacing: 0;
     opacity: 1;
@@ -88,7 +91,7 @@ button.open:focus {
 
 .payer {
     text-align: left;
-    font-size: 14px;
+    font-size: 87.5%;
     letter-spacing: 0;
     opacity: 0.8;
 }
@@ -102,7 +105,7 @@ button.open:focus {
 
 .account {
     text-align: left;
-    font-size: 18px;
+    font-size: 112.5%;
     font-weight: 600;
     letter-spacing: 0;
     opacity: 1;
@@ -110,7 +113,7 @@ button.open:focus {
 
 .pay_assig {
     text-align: left;
-    font-size: 14px;
+    font-size: 87.5%;
     letter-spacing: 0;
     opacity: 0.8;
 }
@@ -122,7 +125,7 @@ button.open:focus {
 
 .sum {
     text-align: left;
-    font-size: 28px;
+    font-size: 150%;
     font-weight: 600;
     letter-spacing: 0;
     opacity: 1;
@@ -162,7 +165,7 @@ button.open:focus {
 
 .header2 {
     text-align: left;
-    font-size:24px;
+    font-size:150%;
     font-weight: 700;
     letter-spacing: 0;
     opacity: 1;
@@ -170,7 +173,7 @@ button.open:focus {
 
 .sys_num {
     text-align: right;
-    font-size:16px;
+    font-size:100%;
     font-weight: 500;
     letter-spacing: 0;
     opacity: 1;
@@ -191,7 +194,7 @@ button.open:focus {
     opacity: 1;
     padding: 0.51% 1.361% 0.935% 1.361%;
     text-align: left;
-    font-size:24px;
+    font-size:150%;
     font-weight: 700;
     letter-spacing: 0;
     color: #FFFFFF;
@@ -204,7 +207,7 @@ button.open:focus {
     opacity: 1;
     padding: 0.51% 1.361% 0.935% 1.361%;
     text-align: left;
-    font-size:24px;
+    font-size:150%;
     font-weight: 700;
     letter-spacing: 0;
     color: #FFFFFF;
@@ -235,7 +238,7 @@ button.open:focus {
 
 .high_str {
     text-align: left;
-    font-size: 12px;
+    font-size: 75%;
     letter-spacing: 0;
     color: #0A0A0A;
     text-transform: uppercase;
@@ -244,7 +247,7 @@ button.open:focus {
 
 .low_str {
     text-align: left;
-    font-size: 16px;
+    font-size: 100%;
     color: #0A0A0A;
     opacity: 1;
     font-weight: 500;
@@ -266,7 +269,7 @@ button.open:focus {
 
 .sum_text {
     text-align: left;
-    font-size: 24px;
+    font-size: 150%;
     color: #0A0A0A;
     opacity: 1;
     font-weight: 700;
@@ -274,7 +277,7 @@ button.open:focus {
 
 .high_right_str {
     text-align: right;
-    font-size: 12px;
+    font-size: 75%;
     letter-spacing: 0;
     color: #0A0A0A;
     text-transform: uppercase;
