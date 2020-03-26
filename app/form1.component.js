@@ -3,7 +3,7 @@ angular.
   component('form1', {  
     templateUrl: 'form1.template.html',
     controller: function PaymentCardController($scope) {
-      $scope.show = false;
+      $scope.show = true;
       $scope.showCard = function() {
         $scope.show = !$scope.show;
       }
