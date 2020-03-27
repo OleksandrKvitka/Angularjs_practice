@@ -11,6 +11,10 @@ angular.
       $scope.changeArr = function() {
         $scope.change = !$scope.change;
       }
+      $scope.meny_show = false;
+      $scope.showMenu = function() {
+        $scope.meny_show = !$scope.meny_show;
+      }
       $scope.focus = false;
       this.payment = {
         number: '3256',
