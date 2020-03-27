@@ -1,28 +1,16 @@
 <div>
     <div class="border">
         <div class="header">payment card</div>
-        <div class="box_row" ng-show="meny_show">
-            <div class="falling_box">
-                <div class="box_cell">
-                    <div class="box_text1">Історія документу</div>
-                </div>
-                <div class="box_cell">
-                    <div class="box_text2">Роздрукувати</div>
-                </div>
-                <div class="box_cell">
-                    <div class="box_text2">Підписи</div>
-                </div>
+        <div class="box_row">
+            <div class="falling_box" ng-show="meny_show">
+                <button class="box_cell1">Історія документу</button>
+                <button class="box_cell2">Роздрукувати</button>
+                <button class="box_cell2">Підписи</button>
                 <div class="box_line"></div>
-                <div class="box_cell">
-                    <div class="box_text2">Продублювати платіж</div>
-                </div>
-                <div class="box_cell">
-                    <div class="box_text2">Редагувати</div>
-                </div>
+                <button class="box_cell2">Продублювати платіж</button>
+                <button class="box_cell2">Редагувати</button>
                 <div class="box_line"></div>
-                <div class="box_cell">
-                    <div class="box_text3">Видалити</div>
-                </div>
+                <button class="box_cell3">Видалити</button>
             </div>
         </div>
         <div class="box" ng-click="box_focus = !box_focus; changeArr()" ng-class="{'box_focus': box_focus}">
@@ -49,7 +37,7 @@
             <div class="third_flex">
                 <div class="sum">{{$ctrl.payment.sum}}</div>
             </div>
-            <div class="circles_flex" ng-click="box_focus = !box_focus; showMenu()" ng-class="{'box_focus': box_focus}">
+            <div class="circles_flex" ng-click="box_focus = !box_focus; showMenu(); changeArr()" ng-class="{'box_focus': box_focus}">
                 <div class="circle"></div>
                 <div class="circle"></div>
                 <div class="circle"></div>
