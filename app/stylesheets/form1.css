@@ -28,7 +28,7 @@ body {
     border-radius: 4px;
     opacity: 1;
     overflow: hidden;
-    padding: 1.41% 1.85% 1.41% 1.762%;
+    padding: 16px 21px 16px 20px;
     display: flex;
     justify-content: flex-start;
 }
@@ -41,7 +41,7 @@ body {
 
 .button_flex {
     display: flex;
-    padding: 1.057% 3.172% 1.057% 0;
+    padding: 12px 36px 12px 0px;
     width: 2.115%;
 }
 
@@ -49,7 +49,7 @@ body {
     overflow: hidden;
     border-radius: 50%;
     width: 100%;
-    height: 100%;
+    height: 24px;
     border:none;
     background: rgba(10, 10, 10, 0.1) 0% 0% no-repeat padding-box;
     
@@ -58,7 +58,7 @@ body {
 button.open {
     border-radius: 50%;
     width: 100%;
-    height: 100%;
+    height: 24px;
     border:none;
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 0.4;
@@ -81,7 +81,7 @@ button.open:focus {
 
 .number {
     text-align: left;
-    font-size: 112.5%;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 0;
     opacity: 1;
@@ -89,7 +89,7 @@ button.open:focus {
 
 .payer {
     text-align: left;
-    font-size: 87.5%;
+    font-size: 14px;
     letter-spacing: 0;
     opacity: 0.8;
 }
@@ -103,7 +103,7 @@ button.open:focus {
 
 .account {
     text-align: left;
-    font-size: 112.5%;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 0;
     opacity: 1;
@@ -111,7 +111,7 @@ button.open:focus {
 
 .pay_assig {
     text-align: left;
-    font-size: 87.5%;
+    font-size: 14px;
     letter-spacing: 0;
     opacity: 0.8;
 }
@@ -123,7 +123,7 @@ button.open:focus {
 
 .sum {
     text-align: left;
-    font-size: 150%;
+    font-size: 28px;
     font-weight: 600;
     letter-spacing: 0;
     opacity: 1;
@@ -133,20 +133,20 @@ button.open:focus {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 0.529%;
-    padding: 0.969% 0 0.969% 0;
+    width: 6px;
+    padding: 11px 0 11px 0;
 }
 
 .circle {
-    width: 100%; 
-    height: 23.077%;
+    width: 6px; 
+    height: 6px;
     background: #0A0A0A 0% 0% no-repeat padding-box;
     border-radius: 50%;
     opacity: 0.1;
 }
 
 .hidden_box {
-    padding: 2.041% 2.041% 2.381% 2.041%;
+    padding: 24px 24px 28px 24px;
     margin-top: 1px;
     height: 452px;
     background: #FAFAFA 0% 0% no-repeat padding-box;
@@ -163,7 +163,7 @@ button.open:focus {
 
 .header2 {
     text-align: left;
-    font-size:150%;
+    font-size:28px;
     font-weight: 700;
     letter-spacing: 0;
     opacity: 1;
@@ -171,7 +171,7 @@ button.open:focus {
 
 .sys_num {
     text-align: right;
-    font-size:100%;
+    font-size:16px;
     font-weight: 500;
     letter-spacing: 0;
     opacity: 1;
@@ -180,8 +180,8 @@ button.open:focus {
 .second_row {
     display: flex;
     justify-content: space-between;
-    margin-top: 1.507%;
-    height: 10.63%;
+    margin-top: 17px;
+    height: 48px;
     width: 100%;
 }
 
@@ -190,9 +190,9 @@ button.open:focus {
     border-radius: 2px;
     width: 46.932%;
     opacity: 1;
-    padding: 0.51% 1.361% 0.935% 1.361%;
+    padding: 6px 16px 11px 16px;
     text-align: left;
-    font-size:150%;
+    font-size:24px;
     font-weight: 700;
     letter-spacing: 0;
     color: #FFFFFF;
@@ -203,9 +203,9 @@ button.open:focus {
     border-radius: 4px;
     width: 46.932%;
     opacity: 1;
-    padding: 0.51% 1.361% 0.935% 1.361%;
+    padding: 6px 16px 11px 16px;
     text-align: left;
-    font-size:150%;
+    font-size:24px;
     font-weight: 700;
     letter-spacing: 0;
     color: #FFFFFF;
@@ -214,7 +214,7 @@ button.open:focus {
 .third_row {
     display: flex;
     justify-content: space-between;
-    margin-top: 2.837%;
+    margin-top: 32px;
     width: 100%;
 }
 
@@ -231,12 +231,12 @@ button.open:focus {
 .foth_row {
     display: flex;
     justify-content: space-between;
-    margin-top: 2.128%;
+    margin-top: 24px;
 }
 
 .high_str {
     text-align: left;
-    font-size: 75%;
+    font-size: 12px;
     letter-spacing: 0;
     color: #0A0A0A;
     text-transform: uppercase;
@@ -245,7 +245,7 @@ button.open:focus {
 
 .low_str {
     text-align: left;
-    font-size: 100%;
+    font-size: 16px;
     color: #0A0A0A;
     opacity: 1;
     font-weight: 500;
@@ -254,7 +254,7 @@ button.open:focus {
 .line {
     border: 1px solid #DDDDDD;
     opacity: 1;
-    margin-top: 2.926%;
+    margin-top: 32px;
     width: 100%;
     height: 0px;
 }
@@ -262,12 +262,12 @@ button.open:focus {
 .fifth_row {
     display: flex;
     justify-content: space-between;
-    margin-top: 2.837%;
+    margin-top: 32px;
 }
 
 .sum_text {
     text-align: left;
-    font-size: 150%;
+    font-size: 24px;
     color: #0A0A0A;
     opacity: 1;
     font-weight: 700;
@@ -275,7 +275,7 @@ button.open:focus {
 
 .high_right_str {
     text-align: right;
-    font-size: 75%;
+    font-size: 12px;
     letter-spacing: 0;
     color: #0A0A0A;
     text-transform: uppercase;
@@ -286,7 +286,7 @@ button.open:focus {
     display: flex;
     justify-content: flex-end;
     height: 288px;
-    margin-bottom: 0.721%;
+    margin-bottom: 8px;
 }
 
 .falling_box {
@@ -298,76 +298,42 @@ button.open:focus {
     border: 1px solid #EEEEEE;
     border-radius: 8px;
     opacity: 1;
-    padding: 0.721%;
+    padding: 8px;
 }
 
-button.box_cell1 {
-    height: 15%;
-    padding: 5.819% 8.811% 8.811% 5.287%;
+button.box_cell {
+    height: 40px;
+    padding: 10px 16px 9px 16px;
     border:none;
     background: transparent 0% 0% no-repeat padding-box;
-    text-align: left;
-    font-size: 100%;
-    font-weight: 500;
-    letter-spacing: 0;
-    color: #0A0A0A;
-    opacity: 1;
-}
-
-button.box_cell2 {
-    height: 15%;
-    padding: 5.819% 8.811% 8.811% 5.287%;
-    border:none;
-    background: transparent 0% 0% no-repeat padding-box;
-    text-align: left;
-    font-size: 100%;
-    font-weight: 500;
     letter-spacing: 0;
     color: #0A0A0A;
     opacity: 0.8;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 540;
     white-space: pre;
 }
 
-button.box_cell3 {
-    height: 15%;
-    padding: 5.819% 8.811% 8.811% 5.287%;
-    border:none;
-    background: transparent 0% 0% no-repeat padding-box;
-    text-align: left;
-    font-size: 100%;
-    font-weight: 500;
-    letter-spacing: 0;
+button.box_cell_red{
     color: #FF1F1F;
-    opacity: 0.8;
+    opacity: 1;
 }
 
-.box_cell1:hover {
+.box_cell:hover {
     background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
-.box_cell1:focus {
-    outline: none;
-}
-
-.box_cell2:hover {
-    background: #EEEEEE 0% 0% no-repeat padding-box;
-}
-
-.box_cell2:focus {
-    outline: none;
-}
-.box_cell3:hover {
-    background: #EEEEEE 0% 0% no-repeat padding-box;
-}
-
-.box_cell3:focus {
+.box_cell:focus {
     outline: none;
 }
 
 .box_line {
     border: 1px solid #DDDDDD;
     opacity: 1;
-    margin-top: 4.603%;
+    margin-top: 8px;
+    margin-bottom: 8px;
     width: 100%;
     height: 0px;
 }
