@@ -20,8 +20,8 @@ body {
 }
 
 .border {
-    width: 1176px;
-    height: 835px;
+    min-width: 1176px;
+    width: 100%;
 }
 
 .box {
@@ -51,7 +51,7 @@ body {
 .button {
     overflow: hidden;
     border-radius: 50%;
-    width: 100%;
+    width: 24px;
     height: 24px;
     border:none;
     background: rgba(10, 10, 10, 0.1) 0% 0% no-repeat padding-box;
@@ -60,7 +60,7 @@ body {
 
 button.open {
     border-radius: 50%;
-    width: 100%;
+    width: 24px;
     height: 24px;
     border:none;
     background: transparent 0% 0% no-repeat padding-box;
