@@ -287,13 +287,14 @@ button.open:focus {
 
 .box_row {
     display: flex;
+    height: 300px;
     justify-content: space-between;
-    height: 288px;
-    margin-bottom: 8px;
+    position: relative;
 }
 
 .falling_box {
     width: 15.417%;
+    height: 270px;
     display: flex;
     flex-direction: column;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -302,6 +303,9 @@ button.open:focus {
     border-radius: 8px;
     opacity: 1;
     padding: 8px;
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
 }
 
 button.box_cell {
