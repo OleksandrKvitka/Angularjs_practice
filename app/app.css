@@ -419,4 +419,65 @@ button.box_cell_red{
     opacity: 0.4;
 }
 
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 46.7%;
+}
+
+.right_first_row {
+    height: 21px;
+    margin-top: 22px;
+    padding-right: 4.8%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lang {
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #0A0A0A;
+    opacity: 1;
+}
+
+button.chevron_down {
+    background: transparent 0% 0% no-repeat padding-box;
+    margin-left: 1.2%;
+    height: 12px;
+    border:none;
+}
+
+button.chevron_down:focus {
+    outline: none;
+}
+
+.right_second_row {
+    margin-top: 199px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 9.5%;
+}
+
+.right_cell {
+    height: 40px;
+    width: 26.2%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #0A0A0A;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.right_cell_focus {
+    background: #006BE41A 0% 0% no-repeat padding-box;
+    color: #006BE4;
+    outline: none;
+}
+
 
