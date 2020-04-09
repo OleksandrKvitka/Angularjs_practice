@@ -1,6 +1,5 @@
 'use strict';
 
-
 angular.
   module('cardList').
   component('cardList', {
