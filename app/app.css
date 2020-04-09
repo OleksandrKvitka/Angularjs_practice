@@ -358,4 +358,65 @@ button.box_cell_red{
 
 /*login*/
 
+.login_page {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1; 
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    width: 53.3%;
+    display: flex;
+    flex-direction: column;
+    background: transparent radial-gradient(950px 1450px at top, #2B85EA 50%, #006BE4 50%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.left_row_one {
+    margin-top: 96px;
+    height: 35px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.left_row_two {
+    height: 21px;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.left_row_three {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left_row_three img {
+    width: 93.75%;
+}
+
+.left_row_four {
+    display: flex;
+    justify-content: space-around;
+}
+.left_row_five {
+    margin-top: 180px;
+    width: 100%;
+    padding: 13px 4.2% 13px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #0A0A0A;
+    opacity: 0.4;
+}
+
 
