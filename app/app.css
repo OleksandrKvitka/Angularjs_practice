@@ -6,6 +6,11 @@ body {
     font-family: futura-pt;
 }
 
+.list {
+  list-style: none;
+  padding: 48px;
+}
+
 .header {
     text-align: left;
     font: 12px;
@@ -25,7 +30,7 @@ body {
 }
 
 .box {
-    height: 48px;
+    height: 80px;
     background-color:#FAFAFA;
     color: #0A0A0A;
     border-radius: 4px;
@@ -45,7 +50,6 @@ body {
 .button_flex {
     display: flex;
     padding: 12px 36px 12px 0px;
-    width: 2.115%;
 }
 
 .button {
@@ -65,6 +69,7 @@ button.open {
     border:none;
     background: transparent 0% 0% no-repeat padding-box;
     opacity: 0.4;
+    padding: 0px 6px 4px 6px;
 }
 
 button.open:focus {
@@ -73,6 +78,7 @@ button.open:focus {
 
 .rotate {
     transform: rotate(90deg);
+    padding: 0px 6px;
 }
 
 .first_flex {
@@ -151,7 +157,7 @@ button.open:focus {
 .hidden_box {
     padding: 24px 24px 28px 24px;
     margin-top: 1px;
-    height: 452px;
+    height: 504px;
     background: #FAFAFA 0% 0% no-repeat padding-box;
     border-radius: 4px;
     opacity: 1;
@@ -162,6 +168,7 @@ button.open:focus {
 .first_row {
     display: flex;
     justify-content: space-between;
+    height: 35px;
 }
 
 .header2 {
@@ -191,7 +198,7 @@ button.open:focus {
 .label1 {
     background: #006BE4 0% 0% no-repeat padding-box;
     border-radius: 2px;
-    width: 46.932%;
+    width: 49.65%;
     opacity: 1;
     padding: 6px 16px 11px 16px;
     text-align: left;
@@ -204,7 +211,7 @@ button.open:focus {
 .label2 {
     background: #2B85EA 0% 0% no-repeat padding-box;
     border-radius: 4px;
-    width: 46.932%;
+    width: 49.65%;
     opacity: 1;
     padding: 6px 16px 11px 16px;
     text-align: left;
@@ -215,6 +222,7 @@ button.open:focus {
 }
 
 .third_row {
+    height: 37px;
     display: flex;
     justify-content: space-between;
     margin-top: 32px;
@@ -235,6 +243,7 @@ button.open:focus {
     display: flex;
     justify-content: space-between;
     margin-top: 24px;
+    height: 37px;
 }
 
 .high_str {
@@ -257,7 +266,7 @@ button.open:focus {
 .line {
     border: 1px solid #DDDDDD;
     opacity: 1;
-    margin-top: 32px;
+    margin: 32px 0px 0px;
     width: 100%;
     height: 0px;
 }
@@ -266,6 +275,7 @@ button.open:focus {
     display: flex;
     justify-content: space-between;
     margin-top: 32px;
+    height: 47px;
 }
 
 .sum_text {
@@ -287,14 +297,13 @@ button.open:focus {
 
 .box_row {
     display: flex;
-    height: 300px;
     justify-content: space-between;
     position: relative;
 }
 
 .falling_box {
-    width: 15.417%;
-    height: 270px;
+    width: 17%;
+    height: 288px;
     display: flex;
     flex-direction: column;
     background: #FFFFFF 0% 0% no-repeat padding-box;

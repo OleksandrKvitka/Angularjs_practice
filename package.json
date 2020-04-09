@@ -1,12 +1,14 @@
 {
-  "name": "angular-phonecat",
+  "name": "payment-card-list",
   "private": true,
   "version": "0.0.0",
-  "description": "A tutorial application for AngularJS",
-  "repository": "https://github.com/angular/angular-phonecat",
+  "description": "A practice task in Unity bars",
+  "repository": "https://github.com/KvitkaOlexandr/Angularjs_practice",
   "license": "MIT",
   "dependencies": {
     "angular": "1.7.x",
+    "angular-resource": "1.7.x",
+    "angular-route": "1.7.x",
     "bootstrap": "3.3.x"
   },
   "devDependencies": {

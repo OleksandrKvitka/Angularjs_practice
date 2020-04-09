@@ -1,14 +1,24 @@
-<html ng-app="app">
-<head>
-  <script src="lib/angular/angular.js"></script>
-  <script src ="lib/angular/angular.min.js"></script>
-  <script src="app.js"></script>
-  <script src="form1.component.js"></script>
-  <link rel="stylesheet" href="/stylesheets/form1.css">
-</head>
-<body>
+<!doctype html>
+<html lang="en" ng-app="cardApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Card List</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="core/core.module.js"></script>
+    <script src="core/card/card.module.js"></script>
+    <script src="core/card/card.service.js"></script>
+    <script src="card-list/card-list.module.js"></script>
+    <script src="card-list/card-list.component.js"></script>
+  </head>
+  <body>
 
-  <form1></form1>  
+    <div ng-view></div>
 
-</body>
+  </body>
 </html>

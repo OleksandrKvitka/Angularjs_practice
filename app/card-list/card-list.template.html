@@ -1,0 +1,137 @@
+
+      <ul class="list">
+        <li ng-repeat="card in $ctrl.cards">
+          <div class="border">
+            <div class="box_row">
+                <div class="header">payment card</div>
+                <div class="falling_box" ng-show="$ctrl.meny_show[{{card.id}}]">
+                    <button class="box_cell">Історія документу</button>
+                    <button class="box_cell">Роздрукувати</button>
+                    <button class="box_cell">Підписи</button>
+                    <div class="box_line"></div>
+                    <button class="box_cell">Продублювати платіж</button>
+                    <button class="box_cell">Редагувати</button>
+                    <div class="box_line"></div>
+                    <button class="box_cell_red box_cell">Видалити</button>
+                </div>
+            </div>
+            <div class="box" ng-click="box_focus = !box_focus; $ctrl.changeArr()" ng-class="{'box_focus': box_focus}">
+                <div class="button_flex">
+                    <div class="button">
+                        <button class="open" ng-click="$ctrl.showCard(); box_focus = !box_focus; $ctrl.changeArr(); rotate = !rotate" ng-class="{'box_focus': box_focus, 'rotate': rotate}">
+                            <img src="img/chevron-right.svg">
+                        </button>
+                    </div>
+                </div>
+                <div class="first_flex">
+                    <div class="number">№{{card.number}}</div>
+                    <div class="payer">№{{card.payer}}</div>
+                </div>
+                <div class="second_flex">
+                    <div class="account">
+                        Мій рахунок
+                        <img ng-show="!$ctrl.change[{{card.id}}]" src="img/long-arrow-alt-right.svg">
+                        <img ng-show="$ctrl.change[{{card.id}}]" src="img/long-arrow-alt-right-white.svg">
+                        {{card.account_section}}
+                    </div>
+                    <div class="pay_assig">№{{card.pay_assignment}}</div>
+                </div>
+                <div class="third_flex">
+                    <div class="sum">{{card.sum}}</div>
+                </div>
+                <div class="circles_flex" ng-click="box_focus = !box_focus; $ctrl.showMenu({{card.id}}); $ctrl.changeArr()" ng-class="{'box_focus': box_focus}">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div class="hidden_box" ng-show="$ctrl.show[{{card.id}}]">
+                <div class="first_row">
+                    <div class="header2">
+                        Платіжне доручення <font color=#006BE4>№{{card.number}}</font>
+                    </div>
+                    <div class="sys_num">системний номер <font size="5">{{card.number}}</font></div>
+                </div>
+                <div class="second_row">
+                    <div class="label1">платник</div>
+                    <div class="label2">отримувач</div>
+                </div>
+                <div class="third_row">
+                    <div class="table">
+                        <div class="cell">
+                            <div class="high_str">платник</div>
+                            <div class="low_str">Мій рахунок</div>
+                        </div>
+                        <div class="cell">
+                            <div class="high_str">код</div>
+                            <div class="low_str">{{card.payer_code}}</div>
+                        </div>
+                        <div class="cell">
+                            <div class="high_str">код банку</div>
+                            <div class="low_str">{{card.payer_bank_code}}</div>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div class="cell">
+                            <div class="high_str">отримувач</div>
+                            <div class="low_str">{{card.recipient}}</div>
+                        </div>
+                        <div class="cell">
+                            <div class="high_str">код</div>
+                            <div class="low_str">{{card.recipient_code}}</div>
+                        </div>
+                        <div class="cell">
+                            <div class="high_str">код банку</div>
+                            <div class="low_str">{{card.recipient_bank_code}}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="foth_row">
+                    <div class="table">
+                        <div>
+                            <div class="high_str">банк платника</div>
+                            <div class="low_str">{{card.payer_bank}}</div>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div>
+                            <div class="high_str">банк отримувача</div>
+                            <div class="low_str">{{card.recipient_bank}}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="foth_row">
+                    <div class="table">
+                        <div>
+                            <div class="high_str">дебет рах. №</div>
+                            <div class="low_str">{{card.debit_credit}}</div>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div>
+                            <div class="high_str">кредит рах. №</div>
+                                <div class="low_str">{{card.debit_credit}}</div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="line">
+                <div class="fifth_row">
+                    <div>
+                        <div class="high_str">сума словами</div>
+                        <div class="sum_text">{{card.sum_text}}</div>
+                    </div>
+                    <div>
+                        <div class="high_right_str">сума</div>
+                    <div class="sum_text">{{card.sum}}</div>
+                    </div>
+                </div>
+                <div class="foth_row">
+                    <div>
+                        <div class="high_str">призначення платежу</div>
+                        <div class="low_str">{{card.pay_assignment}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </li>
+      </ul>
