@@ -15,10 +15,10 @@
                     <button class="box_cell_red box_cell">Видалити</button>
                 </div>
             </div>
-            <div class="box" ng-click="box_focus = !box_focus; $ctrl.changeArr()" ng-class="{'box_focus': box_focus}">
+            <div class="box" ng-click="box_focus = !box_focus; $ctrl.changeArr(card.id)" ng-class="{'box_focus': box_focus}">
                 <div class="button_flex">
                     <div class="button">
-                        <button class="open" ng-click="$ctrl.showCard(); box_focus = !box_focus; $ctrl.changeArr(); rotate = !rotate" ng-class="{'box_focus': box_focus, 'rotate': rotate}">
+                        <button class="open" ng-click="$ctrl.showCard(card.id); box_focus = !box_focus; $ctrl.changeArr(card.id); rotate = !rotate" ng-class="{'box_focus': box_focus, 'rotate': rotate}">
                             <img src="img/chevron-right.svg">
                         </button>
                     </div>
@@ -39,7 +39,7 @@
                 <div class="third_flex">
                     <div class="sum">{{card.sum}}</div>
                 </div>
-                <div class="circles_flex" ng-click="box_focus = !box_focus; $ctrl.showMenu({{card.id}}); $ctrl.changeArr()" ng-class="{'box_focus': box_focus}">
+                <div class="circles_flex" ng-click="box_focus = !box_focus; $ctrl.showMenu(card.id); $ctrl.changeArr(card.id)" ng-class="{'box_focus': box_focus}">
                     <div class="circle"></div>
                     <div class="circle"></div>
                     <div class="circle"></div>

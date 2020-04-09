@@ -19,11 +19,11 @@ angular.
           this.meny_show.push(false);
           this.focus.push(false);
         }
-        this.showCard = function() {
-          this.show[1] = !this.show[1];
+        this.showCard = function(id) {
+          this.show[id] = !this.show[id];
         }
-        this.changeArr = function() {
-          this.change[1] = !this.change[1];
+        this.changeArr = function(id) {
+          this.change[id] = !this.change[id];
         }
         this.showMenu = function(id) {
           this.meny_show[id] = !this.meny_show[id];
