@@ -11,12 +11,10 @@ angular.
         this.show = [];
         this.change = [];
         this.meny_show = [];
-        this.focus = [];
         for(var i = 0; i < size; i++) {
           this.show.push(false);
           this.change.push(false);
           this.meny_show.push(false);
-          this.focus.push(false);
         }
         this.showCard = function(id) {
           this.show[id] = !this.show[id];
