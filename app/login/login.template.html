@@ -21,11 +21,11 @@
             <div class="right_cell" ng-click="right_cell_focus2 = !right_cell_focus2" ng-class="{'right_cell_focus': right_cell_focus2}">за телефоном</div>
             <div class="right_cell" ng-click="right_cell_focus3 = !right_cell_focus3" ng-class="{'right_cell_focus': right_cell_focus3}">за ЕЦП</div>
         </div>
-        <form class="right_third_row">
+        <form novalidate class="right_third_row">
             <label class="small_text">Ваш email</label>
-            <input  class="login">
-            <label class="small_text">Ваш пароль</label>
-            <input  class="login">
+            <input class="login" type="email" ng-model="email" required>
+            <label class="small_text" >Ваш пароль</label>
+            <input  class="login" type="text" ng-model="password" required />
             <a class="big_text">Не пам’ятаєте пароль?</a>  
             <input type="submit" value="Увійти" class="submit_login">  
         </form>
