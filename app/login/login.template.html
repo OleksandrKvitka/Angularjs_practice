@@ -17,9 +17,9 @@
             <button class="chevron_down"><img src="img/chevron-down.svg"></button>
         </div>
         <div class="right_second_row">
-            <div class="right_cell_focus right_cell">за логіном</div>
-            <div class="right_cell">за телефоном</div>
-            <div class="right_cell">за ЕЦП</div>
+            <div class="right_cell" ng-click="right_cell_focus1 = !right_cell_focus1" ng-class="{'right_cell_focus': right_cell_focus1}">за логіном</div>
+            <div class="right_cell" ng-click="right_cell_focus2 = !right_cell_focus2" ng-class="{'right_cell_focus': right_cell_focus2}">за телефоном</div>
+            <div class="right_cell" ng-click="right_cell_focus3 = !right_cell_focus3" ng-class="{'right_cell_focus': right_cell_focus3}">за ЕЦП</div>
         </div>
         <form class="right_third_row">
             <label class="small_text">Ваш email</label>

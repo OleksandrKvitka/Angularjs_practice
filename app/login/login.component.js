@@ -4,8 +4,8 @@ angular.
   module('login').
   component('login', {
     templateUrl: 'login/login.template.html',
-    controller: ['Login',
-      function CardListController(Login) {
+    controller: ['$routeParams', 'Card',
+      function CardListController($routeParams, Card) {
         
       }
     ]
