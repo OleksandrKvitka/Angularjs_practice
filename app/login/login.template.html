@@ -3,7 +3,7 @@
         <div class="left_row_one">Цілодобовий доступ до ваших рахунків</div>
         <div class="left_row_two">Керуйте руханками та створюйте платежі у зручному веб-додатку</div>
         <div class="left_row_three">
-            <img src="/img/notebook.png">
+            <div><img class="notebook" src="/img/notebook.png"></div>
         </div>
         <div class="left_row_four">
             <img src="/img/unity-bars.png">
@@ -13,8 +13,7 @@
     </div>
     <div class="right">
         <div class="right_first_row">
-            <div class="lang">Українська</div>
-            <button class="chevron_down"><img src="img/chevron-down.svg"></button>
+            <button class="lang">Українська<img class="chevron_down" src="img/chevron-down.svg"></button>
         </div>
         <div class="right_second_row">
             <div class="right_cell" ng-click="right_cell_focus1 = !right_cell_focus1" ng-class="{'right_cell_focus': right_cell_focus1}">за логіном</div>
@@ -26,11 +25,11 @@
             <input class="login" type="email" ng-model="email" required>
             <label class="small_text" >Ваш пароль</label>
             <input  class="login" type="text" ng-model="password" required />
-            <a class="big_text">Не пам’ятаєте пароль?</a>  
+            <a class="big_text" href="#">Не пам’ятаєте пароль?</a>  
             <input type="submit" value="Увійти" class="submit_login">  
         </form>
         <div class="right_fouth_row">
-            <div class="right_fouth_text">Спробувати ДЕМО</div>
+            <a class="right_fouth_text" href="#">Спробувати ДЕМО</a>
         </div>
         <div class="right_line"></div>
         <div class="right_row_five">
